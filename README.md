@@ -2,7 +2,7 @@
 - 👀 I’m interested in Embedded Systems, Robotics, AI, Nature, Biology, Space and all things (A Curious Engineer)
 - 🌱 I’m currently learning Embedded systems and AI.
 - 💞️ I’m looking to collaborate on anything fun.
-- 📫 How to reach me --> {************.***} 
+- 📫 How to reach me --> {Discord: 387534729726918656} 
 - <3 I love Traveling, Exploring, Photography, Critical Thinking, Engineering, etc...
 
 
