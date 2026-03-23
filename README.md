@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Embedded systems and AI.
 - 💞️ I’m looking to collaborate on anything fun.
 - 📫 How to reach me --> {Discord: 387534729726918656} 
-- <3 I love Traveling, Exploring, Photography, Critical Thinking, Engineering, etc...
+- ❤️ I love Traveling, Exploring, Photography, Critical Thinking, Engineering, etc...
 
 
 [![Zydu's GitHub stats](https://github-readme-stats.vercel.app/api?username=zydusX3&show_icons=true&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
