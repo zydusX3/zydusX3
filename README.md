@@ -1,7 +1,3 @@
-<!-- Profile README for github.com/zydusX3
-     Before committing: replace every EDIT_ placeholder (search for "EDIT").
-     The banner lives in assets/banner.svg — commit that folder too. -->
-
 <p align="center">
   <img src="assets/banner.svg" alt="Sidharth (SID) — Embedded Firmware · Robotics · Edge AI" width="100%"/>
 </p>
@@ -10,7 +6,10 @@
   <a href="https://www.linkedin.com/in/sidharthpv"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:sidharthpv3@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://discord.com/users/387534729726918656"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"/></a>
-  <!--<a href="https://EDIT_WEBSITE"><img src="https://img.shields.io/badge/Vyomeki-Workshops%20%26%20Freelance-0f766e?style=flat-square" alt="Vyomeki"/></a></p>-->
+  <!-- Add when the Vyomeki site is live:
+  <a href="https://EDIT_WEBSITE"><img src="https://img.shields.io/badge/Vyomeki-Workshops%20%26%20Freelance-0f766e?style=flat-square" alt="Vyomeki"/></a>
+  -->
+</p>
 
 ### 👋 About me
 
@@ -43,30 +42,30 @@ is the best test of whether you really understand it.
   </tr>
 </table>
 
-### 📌 Featured projects
+### 🚧 Building in public
 
-<!-- Keep 4. Each card: one line on what it is, one line on the hard part, a badge or two. Pin the same repos. -->
+<!-- When a repo goes public: wrap the title in <a href="https://github.com/zydusX3/REPO">…</a> and change its status badge to "Live". Pin the same repos. -->
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/zydusX3/EDIT_REPO"><b>🐄 Cattle Tracker</b></a><br/>
+      <b>🐄 Cattle Tracker</b> <img src="https://img.shields.io/badge/status-in%20progress-f59e0b?style=flat-square"/><br/>
       Custom-board GPS tracker for a free-roaming herd, built to run for months on a battery.<br/><i>Hard part:</i> µA-level sleep budgets and staying reachable under forest canopy.<br/>
       <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/GPS-1E3A8A?style=flat-square"/> <img src="https://img.shields.io/badge/Low%20Power-15803d?style=flat-square"/>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/zydusX3/EDIT_REPO"><b>⏱️ RTOS Sensor Hub</b></a><br/>
+      <b>⏱️ RTOS Sensor Hub</b> <img src="https://img.shields.io/badge/status-planned-64748b?style=flat-square"/><br/>
       Multi-sensor data logger on FreeRTOS/Zephyr with a driver layer and CI-tested firmware.<br/><i>Hard part:</i> deterministic timing and clean HAL boundaries.<br/>
       <img src="https://img.shields.io/badge/Zephyr-7929D2?style=flat-square&logo=zephyrproject&logoColor=white"/> <img src="https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/zydusX3/EDIT_REPO"><b>🤖 Differential-Drive Robot</b></a><br/>
+      <b>🤖 Differential-Drive Robot</b> <img src="https://img.shields.io/badge/status-planned-64748b?style=flat-square"/><br/>
       ROS 2 robot with micro-ROS on the MCU, encoder odometry and SLAM.<br/><i>Hard part:</i> real-time motor control talking to a Linux brain.<br/>
       <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/zydusX3/EDIT_REPO"><b>🧠 TinyML Keyword Spotter</b></a><br/>
+      <b>🧠 TinyML Keyword Spotter</b> <img src="https://img.shields.io/badge/status-planned-64748b?style=flat-square"/><br/>
       Voice command model running fully on a Cortex-M4.<br/><i>Hard part:</i> fitting the model into a few hundred KB of RAM.<br/>
       <img src="https://img.shields.io/badge/TensorFlow%20Lite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/ARM-0091BD?style=flat-square&logo=arm&logoColor=white"/>
     </td>
