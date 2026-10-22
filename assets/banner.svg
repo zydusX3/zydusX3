@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sidharth (SID) — Embedded Firmware, Robotics and Edge AI engineer">
+  <title>Sidharth (SID) — Embedded · Robotics · Edge AI</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f2a3a"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2dd4bf" opacity="0.12"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b1220" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#0b1220" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .trace { fill: none; stroke: #2dd4bf; stroke-width: 2; opacity: .28; stroke-linejoin: round; }
+      .pulse { fill: none; stroke: #5eead4; stroke-width: 2.5; stroke-linecap: round;
+               stroke-dasharray: 26 600; animation: run 4s linear infinite; }
+      .p2 { animation-delay: -1.3s; stroke: #fbbf24; }
+      .p3 { animation-delay: -2.6s; }
+      .p4 { animation-delay: -0.6s; stroke: #fbbf24; animation-duration: 5s; }
+      .pad { fill: #0b1220; stroke: #2dd4bf; stroke-width: 2; opacity: .55; }
+      .led { fill: #22c55e; animation: blink 2.4s ease-in-out infinite; }
+      .name { font: 700 64px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #e6edf3; letter-spacing: 1px; }
+      .aka  { font: 600 22px ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; fill: #2dd4bf; }
+      .role { font: 600 24px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #cbd5e1; }
+      .tag  { font: 400 17px ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; fill: #8b9bb4; }
+      .chip-t { font: 700 20px ui-monospace, Consolas, monospace; fill: #2dd4bf; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes run { from { stroke-dashoffset: 626; } to { stroke-dashoffset: 0; } }
+      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: .15; } }
+      @media (prefers-reduced-motion: reduce) { .pulse, .led, .cursor { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#dots)"/>
+
+  <!-- PCB traces feeding into the chip -->
+  <g>
+    <path id="t1" class="trace" d="M560 40 H760 L800 80 H880"/>
+    <path id="t2" class="trace" d="M600 150 H700 L730 120 H880"/>
+    <path id="t3" class="trace" d="M580 262 H780 L820 222 H880"/>
+    <path id="t4" class="trace" d="M1180 70 H1110 L1080 100 H1040"/>
+    <path id="t5" class="trace" d="M1180 230 H1120 L1090 200 H1040"/>
+    <path class="trace" d="M640 200 H760 L790 170 H880"/>
+    <path class="trace" d="M1180 150 H1040"/>
+  </g>
+  <use href="#t1" class="pulse"/>
+  <use href="#t2" class="pulse p2"/>
+  <use href="#t3" class="pulse p3"/>
+  <use href="#t4" class="pulse p4"/>
+  <use href="#t5" class="pulse p3"/>
+
+  <circle class="pad" cx="560" cy="40" r="6"/>
+  <circle class="pad" cx="600" cy="150" r="6"/>
+  <circle class="pad" cx="580" cy="262" r="6"/>
+  <circle class="pad" cx="640" cy="200" r="6"/>
+
+  <!-- MCU chip -->
+  <g transform="translate(880 60)">
+    <g stroke="#2dd4bf" stroke-width="3" opacity=".6">
+      <path d="M30 0 V-12 M60 0 V-12 M90 0 V-12 M120 0 V-12"/>
+      <path d="M30 180 V192 M60 180 V192 M90 180 V192 M120 180 V192"/>
+    </g>
+    <rect width="160" height="180" rx="12" fill="#111c2e" stroke="#2dd4bf" stroke-width="2.5"/>
+    <circle cx="20" cy="20" r="5" fill="#2dd4bf" opacity=".6"/>
+    <text class="chip-t" x="80" y="84" text-anchor="middle">SID</text>
+    <text class="tag" x="80" y="112" text-anchor="middle" style="font-size:13px">ARM · RTOS</text>
+    <text class="tag" x="80" y="132" text-anchor="middle" style="font-size:13px">LINUX · AI</text>
+    <circle class="led" cx="138" cy="160" r="5"/>
+  </g>
+
+  <!-- keep text readable over the traces -->
+  <rect x="0" y="0" width="760" height="300" rx="18" fill="url(#fade)"/>
+
+  <text class="aka"  x="64" y="84">&gt; whoami</text>
+  <text class="name" x="64" y="152">Sidharth <tspan style="fill:#2dd4bf">(SID)</tspan></text>
+  <text class="role" x="64" y="196">Embedded Firmware · Robotics · Edge AI</text>
+  <text class="tag"  x="64" y="236">From bare-metal to the edge: machines that sense, think and move<tspan class="cursor" style="fill:#2dd4bf"> ▌</tspan></text>
+</svg>
