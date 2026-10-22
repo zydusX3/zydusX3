@@ -7,9 +7,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/EDIT_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:EDIT_EMAIL"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://EDIT_WEBSITE"><img src="https://img.shields.io/badge/Vyomeki-Workshops%20%26%20Freelance-0f766e?style=flat-square" alt="Vyomeki"/></a></p>
+  <a href="https://www.linkedin.com/in/sidharthpv"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:sidharthpv3@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://discord.com/users/387534729726918656"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"/></a>
+  <!--<a href="https://EDIT_WEBSITE"><img src="https://img.shields.io/badge/Vyomeki-Workshops%20%26%20Freelance-0f766e?style=flat-square" alt="Vyomeki"/></a></p>-->
 
 ### 👋 About me
 
@@ -18,7 +19,7 @@ hardware–software glue in between. A self-confessed jack of all trades: I go f
 to robots that move and models that run on the edge. I also teach and mentor, because explaining something
 is the best test of whether you really understand it.
 
-- 🔭 **Now building:** a long-life, weatherproof tracker for cattle roaming the Chikmagalur hills
+- 🔭 **Now building:** a long-life, weatherproof tracker for cattle roaming the hills
 - 🌱 **Levelling up:** ROS 2, Zephyr RTOS, TinyML on microcontrollers
 - 🤝 **Open to:** freelance firmware/IoT work · full-time embedded & robotics roles · workshops and talks
 - ⚡ **Fun fact:** I'll happily debug a board with a logic analyser at 2 a.m.
