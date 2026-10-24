@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Sidharth (SID) — Embedded Firmware · Robotics · Edge AI" width="100%"/>
+  <!-- <img src="assets/banner.svg" alt="Sidharth (SID) — Embedded Firmware · Robotics · Edge AI" width="100%"/> -->
+  <img src="assets/banner-ruins.svg" alt="Sidharth (SID) — Embedded Firmware · Robotics · Edge AI" width="100%"/>
 </p>
 
 <p align="center">
