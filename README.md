@@ -49,9 +49,10 @@ is the best test of whether you really understand it.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>🐄 Cattle Tracker</b> <img src="https://img.shields.io/badge/status-in%20progress-f59e0b?style=flat-square"/><br/>
-      Custom-board GPS tracker for a free-roaming herd, built to run for months on a battery.<br/><i>Hard part:</i> µA-level sleep budgets and staying reachable under forest canopy.<br/>
-      <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/GPS-1E3A8A?style=flat-square"/> <img src="https://img.shields.io/badge/Low%20Power-15803d?style=flat-square"/>
+      <b>🐄 Cattle Tracker (CTv1)</b></a> <img src="https://img.shields.io/badge/status-in%20progress-f59e0b?style=flat-square"/><br/>
+      Solar/battery LoRa + GPS collar tags for a free-roaming herd, with a home LoRa→WiFi gateway and a handheld finder for the field.<br/><i>Hard part:</i> µA-level sleep budgets and staying reachable under forest canopy.<br/>
+      <img src="https://img.shields.io/badge/STM32WL-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/LoRa-1E3A8A?style=flat-square"/> <img src="https://img.shields.io/badge/GPS-334155?style=flat-square"/> <img src="https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white"/> <img src="https://img.shields.io/badge/Low%20Power-15803d?style=flat-square"/><br/>
+      <a href="https://github.com/zydusX3/CTv1">View repo →</a>
     </td>
     <td width="50%" valign="top">
       <b>⏱️ RTOS Sensor Hub</b> <img src="https://img.shields.io/badge/status-planned-64748b?style=flat-square"/><br/>
